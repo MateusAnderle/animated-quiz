@@ -113,8 +113,8 @@ export function Quiz() {
   async function handleFinished() {
     await historyAdd({
       id: new Date().getTime().toString(),
-      title: quiz.title,
-      level: quiz.level,
+      title: quiz?.title,
+      level: quiz?.level,
       points,
       questions: quiz.questions.length,
     });
@@ -248,7 +248,7 @@ export function Quiz() {
     <View style={styles.container}>
       <OverlayFeedback status={statusReply} />
       <Animated.View style={fixedProgressBarStyles}>
-        <Text style={styles.title}>{quiz.title}</Text>
+        <Text style={styles.title}>{quiz?.title}</Text>
         <ProgressBar
           total={quiz.questions.length}
           current={currentQuestion + 1}
@@ -263,7 +263,7 @@ export function Quiz() {
       >
         <Animated.View style={[styles.header, headerStyles]}>
           <QuizHeader
-            title={quiz.title}
+            title={quiz?.title}
             currentQuestion={currentQuestion + 1}
             totalOfQuestions={quiz.questions.length}
           />
@@ -272,7 +272,7 @@ export function Quiz() {
         <GestureDetector gesture={onPan}>
           <Animated.View style={[shakeStyleSnimated, dragStyles]}>
             <Question
-              key={quiz.questions[currentQuestion].title}
+              key={quiz.questions[currentQuestion]?.title}
               question={quiz.questions[currentQuestion]}
               alternativeSelected={alternativeSelected}
               setAlternativeSelected={setAlternativeSelected}

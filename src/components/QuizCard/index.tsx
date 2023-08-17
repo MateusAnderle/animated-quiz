@@ -37,7 +37,7 @@ export function QuizCard({ index, data, ...rest }: Props) {
         <LevelBars level={data.level} />
       </View>
 
-      <Text style={styles.title}>{data.title}</Text>
+      <Text style={styles.title}>{data?.title}</Text>
     </TouchableOpacityAnimated>
   );
 }

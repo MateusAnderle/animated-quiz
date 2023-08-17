@@ -58,9 +58,9 @@ export function Question({
       })}
       style={styles.container}
     >
-      <Text style={styles.title}>{question.title}</Text>
+      <Text style={styles.title}>{question?.title}</Text>
 
-      {question.alternatives.map((alternative, index) => (
+      {question?.alternatives?.map((alternative, index) => (
         <Option
           key={index}
           title={alternative}
