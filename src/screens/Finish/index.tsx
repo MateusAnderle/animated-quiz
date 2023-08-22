@@ -22,14 +22,14 @@ export function Finish() {
       <Stars />
 
       <View style={styles.message}>
-        <Text style={styles.title}>Parabéns!</Text>
+        <Text style={styles.title}>Congratulations!</Text>
 
         <Text style={styles.subtitle}>
-          Você acertou {points} de {total} questões
+          You got {points} out of {total} questions right.
         </Text>
       </View>
 
-      <Button title="Ir para o início" onPress={() => navigate("home")} />
+      <Button title="Go to homepage" onPress={() => navigate("home")} />
     </View>
   );
 }

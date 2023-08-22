@@ -104,9 +104,9 @@ export function Quiz() {
   });
 
   function handleSkipConfirm() {
-    Alert.alert("Pular", "Deseja realmente pular a questão?", [
-      { text: "Sim", onPress: () => handleNextQuestion() },
-      { text: "Não", onPress: () => {} },
+    Alert.alert("Skip", "Are you sure you want to skip the question?", [
+      { text: "Yes", onPress: () => handleNextQuestion() },
+      { text: "No", onPress: () => {} },
     ]);
   }
 
@@ -152,13 +152,13 @@ export function Quiz() {
   }
 
   function handleStop() {
-    Alert.alert("Parar", "Deseja parar agora?", [
+    Alert.alert("Stop", "Do you want to stop now?", [
       {
-        text: "Não",
+        text: "No",
         style: "cancel",
       },
       {
-        text: "Sim",
+        text: "Yes",
         style: "destructive",
         onPress: () => navigate("home"),
       },
@@ -281,7 +281,7 @@ export function Quiz() {
         </GestureDetector>
 
         <View style={styles.footer}>
-          <OutlineButton title="Parar" onPress={handleStop} />
+          <OutlineButton title="Stop" onPress={handleStop} />
           <ConfirmButton onPress={handleConfirm} />
         </View>
       </Animated.ScrollView>
