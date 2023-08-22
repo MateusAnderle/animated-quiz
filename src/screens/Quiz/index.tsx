@@ -140,9 +140,8 @@ export function Quiz() {
 
     if (quiz.questions[currentQuestion].correct === alternativeSelected) {
       setPoints((prevState) => prevState + 1);
-      await playSound(true);
       setStatusReply(1);
-      handleNextQuestion();
+      await playSound(true);
     } else {
       await playSound(false);
       setStatusReply(2);
