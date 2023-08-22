@@ -1,215 +1,199 @@
 export const QUIZ = [
   {
-    id: '1',
-    title: 'Utilizando Estados',
+    id: "1",
+    title: "Using states",
     level: 1,
     questions: [
       {
-        title: 'Os Hooks são uma forma de trabalharmos com funções no React em vez de classes. useState e useEffect são exemplos de hooks bem utilizados. Porém, ainda não é possível criar nossos próprios hooks.',
-        alternatives: [
-          'Verdadeiro',
-          'Falso'
-        ],
-        correct: 0
+        title:
+          "Hooks are a way of working with functions in React instead of classes. useState and useEffect are examples of well-used hooks. However, it is not yet possible to create our own hooks.",
+        alternatives: ["True", "False"],
+        correct: 0,
       },
       {
-        title: 'A imutabilidade no React é muito importante porque se mutarmos diretamente o valor de um estado em vez de substituí-lo por um novo valor, não ocorre corretamente uma nova renderização do seu componente.',
-        alternatives: [
-          'Verdadeiro',
-          'Falso'
-        ],
-        correct: 0
+        title:
+          "Immutability in React is crucial because if we directly mutate the value of a state instead of replacing it with a new value, a proper re-rendering of your component does not occur correctly.",
+        alternatives: ["True", "False"],
+        correct: 0,
       },
       {
-        title: 'Sobre a renderização no React, assinale a alternativa incorreta:',
+        title: "About rendering in React, select the incorrect alternative:",
         alternatives: [
-          'Há dois casos comuns em que um componente React é renderizado: a renderização inicial do componente e atualizações de estado.',
-          'As re-renderizações normalmente não recriam todos os componentes como a renderização inicial',
-          'Uma atualização de um estado de um componente pai pode ocasionar a re-renderização de um componente filho (aninhado).',
-          'O React não segue um fluxo definido ao renderizar uma tela, podendo variar bastante as etapas do processo.'
+          "There are two common cases in which a React component is rendered: the initial rendering of the component and state updates.",
+          "Re-renderings typically don't recreate all components like the initial rendering",
+          "An update to a state of a parent component can cause the re-rendering of a nested child component.",
+          "React doesn't follow a defined flow when rendering a screen, and the steps of the process can vary considerably.",
         ],
-        correct: 0  
+        correct: 0,
       },
-    ]
+    ],
   },
   {
-    id: '2',
-    title: 'Utilizando Typescript',
+    id: "2",
+    title: "Using Typescript",
     level: 2,
     questions: [
       {
-        title: "Que tipo de atribuição é esta variável, `const fullName: string = 'Dylan Israel';`?",
-        alternatives: [
-          'Explicita',
-          'Implícita'
-        ],
-        correct: 0
+        title:
+          "at type of assignment is this variable: `const fullName: string = 'Dylan Israel';`?",
+        alternatives: ["Explicit", "Implicit"],
+        correct: 0,
       },
       {
-        title: "Qual é o tipo de `const exemplo = ['Dylan']`?",
-        alternatives: [
-          'unknown[]',
-          'string',
-          'string[]',
-          'any[]'
-        ],
-        correct: 2
+        title: "What is the type of `const exemplo = ['Dylan']`?",
+        alternatives: ["unknown[]", "string", "string[]", "any[]"],
+        correct: 2,
       },
       {
-        title: "keyof pode ser usado com assinaturas de índice para extrair o tipo de índice.",
-        alternatives: [
-          'Verdadeiro',
-          'False',
-        ],
-        correct: 0
+        title:
+          "keyof can be used with index signatures to extract the index type.",
+        alternatives: ["True", "False"],
+        correct: 0,
       },
-    ]
+    ],
   },
   {
-    id: '3',
-    title: 'React Navigation',
+    id: "3",
+    title: "React Navigation",
     level: 2,
     questions: [
       {
-        title: 'Qual a melhor descrição para identificar o Stack Navigator?',
+        title: "What is the best description to identify the Stack Navigator?",
         alternatives: [
-          'Adiciona um menu fixo na parte inferior do dispositivo, facilitando o acesso a telas utilizadas com mais frequência.',
-          'Ao abrir uma nova tela, essa nova tela é colocada no topo da pilha de navegação e ao voltar telas, as mesmas são removidas dessa pilha.',
-          'Adiciona um menu lateral, ocupando toda a altura do dispositivo. No primeiro momento esse menu fica escondido e você consegue abrir o menu arrastando a tela.'
+          "Adds a fixed menu at the bottom of the device, making it easier to access frequently used screens.",
+          "When opening a new screen, the new screen is placed at the top of the navigation stack, and when going back, screens are removed from this stack.",
+          "Adds a side menu, occupying the full height of the device. Initially, this menu is hidden and can be opened by dragging the screen.",
         ],
-        correct: 1
+        correct: 1,
       },
       {
-        title: 'Ao “tipar” as rotas, você tem a vantagem de no momento da navegação saber se uma rota recebe parâmetros ou não e qual o formato dos parâmetros.',
-        alternatives: [
-          'Verdadeiro.',
-          'Falso'
-        ],
-        correct: 0
+        title:
+          "When typing routes, you have the advantage that during navigation, you know whether a route receives parameters or not, and what the format of the parameters is.",
+        alternatives: ["True.", "False"],
+        correct: 0,
       },
       {
-        title: 'Sobre o NavigationContainer é correto afirmar.',
+        title: "Regarding NavigationContainer, it is correct to say that:",
         alternatives: [
-          'O NavigationContainer é o componente no qual criamos uma rota na aplicação, passando para ele as propriedades "name" e "component".',
-          'O NavigationContainer  é um “hook” exportado de dentro do  react navigation que nos permite acessar funções como o "navigate" e o "goBack".',
-          'O NavigationContainer é um contexto que compartilha com nossa aplicação, todas as rotas e propriedades de navegação.'
+          'The NavigationContainer is the component in which we create a route in the application, passing the "name" and "component" properties to it.',
+          'The NavigationContainer is a "hook" exported from within the React Navigation that allows us to access functions like "navigate" and "goBack".',
+          "The NavigationContainer is a context that shares with our application all routes and navigation properties.",
         ],
-        correct: 2
+        correct: 2,
       },
-    ]
+    ],
   },
   {
-    id: '4',
-    title: 'Styled Components',
+    id: "4",
+    title: "Styled Components",
     level: 3,
     questions: [
       {
-        title: 'CSS-in-JS é a estratégia de estilo pela qual o JavaScript é usado para estilizar componentes.',
-        alternatives: [
-          'Verdadeiro',
-          'Falso'
-        ],
-        correct: 0
+        title:
+          "CSS-in-JS is the styling strategy in which JavaScript is used to style components.",
+        alternatives: ["True", "False"],
+        correct: 0,
       },
       {
-        title: 'Assinale abaixo a alternativa que não corresponde a uma característica do Styled Components.',
+        title:
+          "Select the option below that does not correspond to a characteristic of Styled Components.",
         alternatives: [
-          'Realizar a importação default do styled e  e utilizá-lo para criar os componentes (ex.: styled.View).',
-          'É possível tanto criar componentes estilizados predefinidos com o "styled." quanto repassar componentes personalizados para ele por styled().',
-          'A forma de estilizar os componentes se assemelha bastante ao que utilizamos quando trabalhamos diretamente com CSS (letras minúsculas, separadas por hífen e com ponto e vírgula ao final).',
-          'É possível personalizar apenas as estilizações dos componentes (prop style) via styled, ou seja, não é possível configurar outras propriedades/atributos do componente.'
+          "Performing the default import of styled and using it to create components (e.g., styled.View).",
+          "It's possible to both create predefined styled components using 'styled.' and pass custom components to it using styled().",
+          "The way of styling components is quite similar to what we use when working directly with CSS (lowercase letters, hyphen-separated, and ending with a semicolon).",
+          "It's possible to customize only the styling of components (style prop) via styled, meaning it's not possible to configure other properties/attributes of the component.",
         ],
-        correct: 1
+        correct: 1,
       },
       {
-        title: 'Com o Styled Components é possível isolar a estrutura do componente da sua estilização.',
-        alternatives: [
-          'Verdadeiro',
-          'Falso'
-        ],
-        correct: 0
+        title:
+          "With Styled Components, it's possible to isolate the component's structure from its styling.",
+        alternatives: ["True", "False"],
+        correct: 0,
       },
-    ]
+    ],
   },
   {
-    id: '5',
-    title: 'Local Storage',
+    id: "5",
+    title: "Local Storage",
     level: 2,
     questions: [
       {
-        title: 'Qual dos seguintes métodos salva informações no AsyncStorage?',
+        title:
+          "Which of the following methods saves information in AsyncStorage?",
         alternatives: [
-          'AsyncStorage.removeItem',
-          'AsyncStorage.setItem',
-          'AsyncStorage.getItem'
+          "AsyncStorage.removeItem",
+          "AsyncStorage.setItem",
+          "AsyncStorage.getItem",
         ],
-        correct: 1
+        correct: 1,
       },
       {
-        title: 'O que melhor descreve o PropDrilling?',
+        title: "What best describes PropDrilling?",
         alternatives: [
-          'Estratégia onde você repassa propriedades entre componentes até você chegar no componente desejado.',
-          'Estratégia onde você salva informações localmente no dispositivo (storage) e acessar quando precisar.',
-          'Estratégia onde você compartilha informações entre componentes através de contextos (Context API).'
+          "Strategy where you pass properties between components until you reach the desired component.",
+          "Strategy where you save information locally on the device (storage) and access it when needed.",
+          "Strategy where you share information between components through contexts (Context API).",
         ],
-        correct: 1
+        correct: 1,
       },
       {
-        title: 'Qual a maneira correta de salvar objetos no AsyncStorage?',
+        title: "What is the correct way to save objects in AsyncStorage?",
         alternatives: [
           "await AsyncStorage.setItem('@app:key', { id: 1, name: 'Item 1' });",
           "await AsyncStorage.getItem('@app:key', JSON.stringify({ id: 1, name: 'Item 1' }));",
-          "await AsyncStorage.setItem('@app:key', JSON.stringify({ id: 1, name: 'Item 1' }));"
+          "await AsyncStorage.setItem('@app:key', JSON.stringify({ id: 1, name: 'Item 1' }));",
         ],
-        correct: 2
+        correct: 2,
       },
-    ]
+    ],
   },
   {
-    id: '6',
-    title: 'React Native',
+    id: "6",
+    title: "React Native",
     level: 1,
     questions: [
       {
-        title: 'Assinale a alternativa correta sobre React Native:',
+        title: "Select the correct option about React Native:",
         alternatives: [
-          'React Native é um framework Javascript baseado no React capaz de criar aplicações apenas para Android e iOS.',
-          'Diferentemente do React, o React Native é construído totalmente pela comunidade e não tem nenhuma relação com o Facebook.',
-          'Com o React Native você consegue manter quase toda a sua aplicação pelo Javascript e manipular código nativo caso necessário.',
-          'Apesar do destaque do ReactJS na Web, o React Native não é muito utilizado atualmente no mercado de trabalho da área mobile.'
+          "React Native is a JavaScript framework based on React that can create applications only for Android and iOS.",
+          "Unlike React, React Native is built entirely by the community and has no affiliation with Facebook.",
+          "With React Native, you can maintain almost your entire application using JavaScript and manipulate native code when necessary.",
+          "Despite the prominence of ReactJS on the web, React Native is not widely used in the current job market in the mobile development field.",
         ],
-        correct: 2
+        correct: 2,
       },
       {
-        title: 'Assinale a alternativa incorreta sobre React Native CLI e Expo',
+        title: "Select the incorrect option about React Native CLI and Expo",
         alternatives: [
-          'Tanto com React Native CLI quanto com Expo é possível criar aplicações para iOS e Android.',
-          'React Native CLI é a maneira mais "crua" de se criar um projeto React Native. Já o Expo traz mais funcionalidades em cima dessa base, por exemplo o Expo Go.',
-          'Com o Expo é possível testar aplicações iOS pelo Expo Go caso você tenha um dispositivo físico iOS mesmo que não tenha um sistema macOS, o que não é possível pela React Native CLI.',
-          'A documentação oficial do React Native recomenda apenas a React Native CLI, nem chegando a mencionar o Expo.'
+          "Both with React Native CLI and Expo, it is possible to create applications for iOS and Android.",
+          'React Native CLI is the more "barebones" way to create a React Native project. On the other hand, Expo builds on top of this foundation and provides more features, such as Expo Go.',
+          "With Expo, you can test iOS applications using Expo Go even if you have a physical iOS device without needing a macOS system, which is not possible with React Native CLI.",
+          "The official React Native documentation recommends only using React Native CLI and doesn't even mention Expo.",
         ],
-        correct: 3
+        correct: 3,
       },
       {
-        title: 'Sobre o Expo, assinale a alternativa correta:',
+        title: "Regarding Expo, select the correct option:",
         alternatives: [
-          'Expo tem dois caminhos tradicionais ao criar um projeto: Managed Workflow e Bare Workflow.',
-          'Managed Workflow é a maneira de criar projetos onde desde o início você tem acesso ao seu código nativo.',
-          'Com o Bare Workflow você não pode utilizar em nenhum momento o Expo Go.',
-          'A configuração do ambiente React Native para Managed Workflow é mais complexa do que para Bare Workflow'
+          "Expo has two traditional paths when creating a project: Managed Workflow and Bare Workflow.",
+          "Managed Workflow is the way to create projects where you have access to your native code right from the start.",
+          "With Bare Workflow, you cannot use Expo Go at any point.",
+          "The configuration of the React Native environment for Managed Workflow is more complex than for Bare Workflow",
         ],
-        correct: 3
+        correct: 3,
       },
       {
-        title: 'Sobre componentização em React Native, escolha a alternativa incorreta:',
+        title:
+          "Regarding componentization in React Native, select the incorrect option:",
         alternatives: [
-          'Componentizar é uma forma de reaproveitar trechos de código em vários locais do seu código.',
-          'Uma das vantagens da componentização é simplificar um componente muito complexo em múltiplos componentes menores, facilitando assim na manutenção do código.',
-          'Apesar de ajudar no reaproveitamento e simplificação do código, componentizar reduz a produtividade e legibilidade do projeto.',
-          'Nenhuma está correta.'
+          "Componentization is a way to reuse code snippets in various parts of your code.",
+          "One of the advantages of componentization is simplifying a highly complex component into multiple smaller components, thereby easing code maintenance.",
+          "Despite aiding in code reuse and simplification, componentization does not reduce project productivity and readability.",
+          "None of the options is correct.",
         ],
-        correct: 3
+        correct: 3,
       },
-    ]
+    ],
   },
 ];
