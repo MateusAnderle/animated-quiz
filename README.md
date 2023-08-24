@@ -15,9 +15,11 @@ The **_AnimatedQuizz_** is a mobile application for those who want to test their
 ---
 
 <div align="center" >
-<img src="https://github.com/MateusAnderle/gym-app/assets/100309091/52c3a669-dbc2-469a-8be0-cd711b2ac31b" width="300">
+<img src="https://github.com/MateusAnderle/animated-quiz/assets/100309091/483d67bf-640e-4273-8b87-d6cda57e473e" width="300">
 </div>
+
 ---
+
 
 ## :information_source: About
 
@@ -70,10 +72,10 @@ This project was created to learn and test new concepts within the React Native 
 - React-Native
 - NPM
 
-## Using the application
+## Skipping quizzes
 
 <div align="center" >
-<img src="https://github.com/MateusAnderle/gym-app/assets/100309091/88e1f18d-39de-444c-9c03-f34ddaa22e20" width="300">
+<img src="https://github.com/MateusAnderle/animated-quiz/assets/100309091/bbbd4040-4d4b-4108-ae83-1899923b0b05" width="300">
 </div>
 
 ## Technologies Used
