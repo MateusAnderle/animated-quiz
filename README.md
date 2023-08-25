@@ -135,7 +135,7 @@ npm run android
 
 ## :balance_scale: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/MateusAnderle/gym-app/blob/main/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/MateusAnderle/animated-quiz/blob/main/LICENSE) for more information.
 
 ---
 
