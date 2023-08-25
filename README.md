@@ -9,7 +9,6 @@ The **_AnimatedQuizz_** is a mobile application for those who want to test their
   <a href="#minimum-requirements">Requirements</a>&nbsp;|&nbsp;
   <a href="#rocket-technologies-used">Technologies</a>&nbsp;|&nbsp;
   <a href="#package-download">Download and Run</a>&nbsp;|&nbsp;
-  <a href="#package-api-scripts">API</a>&nbsp;
 </h3>
 
 ---
