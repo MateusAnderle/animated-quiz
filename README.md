@@ -12,7 +12,7 @@ The **_AnimatedQuizz_** is a mobile application for those who want to test their
 </h3>
 
 ---
-
+ 
 <div align="center" >
 <img src="https://github.com/MateusAnderle/animated-quiz/assets/100309091/483d67bf-640e-4273-8b87-d6cda57e473e" width="300">
 </div>
